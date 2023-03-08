@@ -1,1 +1,1 @@
-web: gunicorn HRMS.wsgi --log-file -
+web: gunicorn railway.wsgi --log-file -
