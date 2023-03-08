@@ -4,9 +4,9 @@ import os
 
 SECRET_KEY = config('SECRET_KEY')
 
-# ALLOWED_HOSTS = ['web-production-c140.up.railway.app']
+ALLOWED_HOSTS = ['web-production-6caf.up.railway.app']
 
-# CSRF_TRUSTED_ORIGINS = ['https://web-production-c140.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-6caf.up.railway.app/']
 
 
 DATABASES = {
